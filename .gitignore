@@ -1,0 +1,31 @@
+Секреты
+.env
+.env.local
+IDE
+.obsidian/
+.vscode/
+.claude/
+.idea/
+Python
+pycache/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+OpenCode internal (автогенерация)
+.opencode/node_modules/
+.opencode/package.json
+.opencode/package-lock.json
+Сгенерированный контент
+content/.json
+content/.png
+content/*.jpg
+Временные файлы
+*.log
+*.save
+.save.
+temp/
+tmp/
+OS
+.DS_Store
+Thumbs.db

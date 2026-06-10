@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "social_publisher": {
+      "type": "local",
+      "command": ["python3", "/mnt/c/Users/user/vibe-marketolog/scripts/social_mcp.py"],
+      "enabled": true,
+      "environment": {
+        "TELEGRAM_BOT_TOKEN": "{env:TELEGRAM_BOT_TOKEN}",
+        "TELEGRAM_CHAT_ID": "{env:TELEGRAM_CHAT_ID}"
+      }
+    }
+  },
+  "agent": {
+    "publisher": {
+      "tools": {
+        "social_publisher_*": true
+      }
+    }
+  }
+}
